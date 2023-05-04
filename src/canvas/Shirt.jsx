@@ -17,7 +17,7 @@ const Shirt = () => {
     key={stateString}>
       <mesh
         castShadow
-        geometry={nodes.T_Shirt_Male.geometry}
+        geometry={nodes.T_Shirt_male.geometry}
         material={materials.lambert1}
         material-roughness={1}
         dispose={null}>
